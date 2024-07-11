@@ -228,7 +228,11 @@ body {
 .my-target-parent {
   display: flex;
   justify-content: space-between;
-  gap: 10px;
+  gap: 20px;
+  text-align: center;
+}
+.my-target-box-1 a{
+ gap: 5px;
 }
 .my-target-box a{
   text-decoration: none;
@@ -236,12 +240,21 @@ body {
   margin-top: 10px;
 
 }
+.my-target-box-2 p{
+  margin-top: 8px;
+}
+.my-target-box-3 p,h1{
+  margin-top: 5px;
+}
 
 .my-target-box-1 {
   background-color: rgba(255, 76, 30, 0.05);
+  
+
 }
 .my-target-box-2 {
   background-color: rgba(0, 76, 232, 0.05);
+  margin-top: 8px;
 }
 .my-target-box-3 {
   background-color: rgba(255, 223, 0, 0.05);
